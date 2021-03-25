@@ -33,6 +33,9 @@ export default class Layout extends Component {
                      <main className='Content'>
                        {this.props.children}
                     </main>
+                    <footer className='Footer'>
+                        <p>Created by <em>Taica Rullz</em></p>
+                    </footer>
              </Auxiliar>
         )
     }
