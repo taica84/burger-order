@@ -17,8 +17,6 @@ export default function Burger(props) {
             transformIngredients = <p>Please start adding ingredients</p> 
         }
 
-       console.log(transformIngredients)
-
     return (
         <div className='Burger'>
             <BurgerIngredients  type='bread-top' />
